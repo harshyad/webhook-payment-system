@@ -30,7 +30,7 @@ webhook-payment-system/
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/harshyad/webhook-payment-system
    cd webhook-payment-system
    ```
 
