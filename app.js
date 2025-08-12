@@ -7,8 +7,7 @@ const PORT = process.env.PORT || 8000;
 const SHARED_SECRET = 'test_secret';
 
 // Initialize database
-const db = new Database();
-
+const db = new Database()
 
 /**
   * Stores the raw request body as a string.
@@ -119,7 +118,6 @@ app.get('/payments/:payment_id/events', async (req, res) => {
     res.status(500).json({ error: 'Internal server error' });
   }
 });
-
 
 // Initialize database and start server
 async function startServer() {
